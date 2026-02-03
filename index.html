@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" src="music.mp3" loop></audio>
+
+<div id="startScreen" class="center">
+  <h1 class="glow">
+    Kya tum ne duniya ki<br>
+    <span>sab se khoobsurat larki</span><br>
+    dekhni hai? 💕
+  </h1>
+  <button id="startBtn">Box pe tap karo 🎁</button>
+</div>
+
+<div id="countdown" class="hidden center">
+  <h1 id="countText">3</h1>
+</div>
+
+<div id="surprise" class="hidden center">
+  <div class="hearts"></div>
+  <div class="balloons"></div>
+
+  <video controls autoplay>
+    <source src="video.mp4" type="video/mp4">
+  </video>
+
+  <h2>💖 You are truly special 💖</h2>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
